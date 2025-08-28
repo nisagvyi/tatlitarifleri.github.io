@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("food_website_background_2.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#parent{
+    background: white;
+    width: 70%;
+    align-self: center;
+
+}
+#header{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.line{
+    background: black;
+    width: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+#logoContainer{
+    display: flex;
+    justify-content: center;
+}
+#subHeader{
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.form{
+    margin-right: 15px;
+}
+
+.formShape{
+    width: 10px;
+    margin-right: 15px ;
+    margin-left: 15px;
+}
+
+#contentContainer{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.square{
+    width: 95%;
+    height: 350px;
+    background: red ;
+    margin-bottom:15px;
+}  
+.square1{
+    width: 50%;
+    justify-content:center;
+    height: 100%;
+    background:black;
+} 
+.square2{
+    width: 50%;
+    justify-content: center;
+    height: 100%;
+    background: black;
+    
+} 
+
+
