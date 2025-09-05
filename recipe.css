@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("food_website_background_2.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#parent{
+    background: white;
+    width: 70%;
+    align-self: center;
+
+}
+#header{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.line{
+    background: black;
+    width: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+#logoContainer{
+    display: flex;
+    justify-content: center;
+}
+#contentContainer{
+    display: flex;
+    background: white;
+    width: 70%;
+    
+}

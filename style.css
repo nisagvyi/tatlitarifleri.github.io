@@ -58,22 +58,127 @@ body {
 }
 .square{
     width: 95%;
-    height: 350px;
-    background: red ;
+    display: flex;
+    flex-direction: row;
+    
     margin-bottom:15px;
 }  
 .square1{
     width: 50%;
-    justify-content:center;
-    height: 100%;
-    background:black;
+    display: flex;
+    height: 350px;
+    
 } 
 .square2{
     width: 50%;
-    justify-content: center;
-    height: 100%;
-    background: black;
+    display: flex;
+    height: 350px;
+    background:#ffeef9;
+    padding: 15px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
     
 } 
+.write1{
+    margin-bottom: 80px;
+}
+.write2{
+    font-weight: 350px;
+    font-size: 16px;
+    text-align: left;
+    
+}
+.post-footer {
+  display: flex;
+  justify-content: right;
+  margin-top: 45px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  
+}
+.like-btn, .comment-btn {
+  background: #ff6b81;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
 
+.article1{
+    margin-bottom: 80px;
+}
+.article2{
+    font-weight: 350px;
+    font-size: 16px;
+    text-align: left;
+}
+.posture{
+    display: flex;
+    justify-content: right;
+    margin-top: 60px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+.enjoy-btn, .commentary-btn{
+   background: #ff6b81;
+   color:white;
+   border: none;
+   padding: 10px 10px; 
+   font-size: 10px;
+   border-radius: 8px;
+   margin-right: 10px;
+}
+.inscription1{
+    margin-bottom: 80px;
+}
+.inscription2{
+    font-weight: 350px;
+    font-size: 16px;
+    text-align: left;
+}
 
+.segment{
+   display: flex;
+   justify-content: right;
+   margin-top: 60px;
+   padding: 10px;
+   border-top: 1px solid #ccc;
+}
+
+.see-btn, .look-btn{
+    background: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.tablet1{
+    margin-bottom: 80px;
+}
+.tablet2{
+    font-weight: 350px;
+    font-size: 16px;
+    text-align: left;
+}
+.piece{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    padding: 5px;
+    border-top: 1px solid #ccc;
+}
+.hope-btn, .show-btn{
+    background: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
