@@ -82,7 +82,7 @@ body {
     
 } 
 .write1{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .write2{
     font-weight: 350px;
@@ -169,8 +169,8 @@ body {
 .piece{
     display: flex;
     justify-content: right;
-    margin-top: 20px;
-    padding: 5px;
+    margin-top: 60px;
+    padding: 10px;
     border-top: 1px solid #ccc;
 }
 .hope-btn, .show-btn{

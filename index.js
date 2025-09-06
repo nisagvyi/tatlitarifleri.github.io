@@ -29,7 +29,20 @@ var posts = [
         like: 0,
         yorum: 0,
     },
+
+    {
+        image:'donut.png',
+        title:'Gökkuşağı Şekerlemeleri',
+        message:'Renkler nazikçe gülümsüyor, tatlar sessizce konuşuyor. Bu sayfa, bir tabakta toplanan neşenin ve huzurun küçük bir kutlamasıdır. Her donut, bir tebessüm; her tarif, bir sarılma gibi.',
+        like: 0,
+        yorum: 0,
+    },
+
+
 ]
+
+
+    
 
 function renderPosts() {
     var parent = document.getElementById("contentContainer")
