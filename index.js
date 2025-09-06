@@ -37,9 +37,44 @@ var posts = [
         like: 0,
         yorum: 0,
     },
-
+    {
+        image:'dondurmali-profiterol.jpg',
+        title:'Profiterolün Kalpten Gelen Hali',
+        message:'Sessizce pişen hamurlar, sabırla doldurulan içler... Çikolata, kalpten gelen bir dokunuş gibi nazikçe aktı.Bu köşe, tatlının sadece bir lezzet değil, bir duyguyu taşıdığı anlara adanmıştır.Her profiterol, bir tebessüm; her sos, içsel bir kucaklaşma gibi.',
+        like: 0,
+        yorum: 0,
+    },
+    {
+        image:'frambuazli-trilece.jpg',
+        title:'Sütle Yazılmış Bir Masal',
+        message:' Sessiz bir öğleden sonra, mutfağın köşesinde başlayan bir hikâye… Sütle ıslanmış kekin yumuşaklığı, meyvenin zarif dokunuşuyla buluştu. Her katı bir cümle, her dokunuşu bir virgül gibi. Bu tatlı, sadece bir tarif değil bir masalın en tatlı bölümü. Belki de huzurun en sade hali, bir kaşıkta saklı.',
+        like: 0,
+        yorum: 0,
+    },
+    {
+        image:'meyveli_kruvasan.jpg',
+        title:'Dakikalarla Mayalanan Huzur',
+        message:'Sabahın ilk ışıklarıyla uyanan bir düş… Kat kat açılmış hamurun arasına gizlenmiş çilek dilimleri, Üzerine serpilmiş pudra şekeriyle bir masal gibi. Bu kruvasan, sadece bir tatlı değil bir sabah tebessümü, Belki de günün en pastel anı, bir lokmada saklı.',
+        like: 0,
+        yorum: 0,
+    },
+    {
+        image:'tiramusu.jpg',
+        title:'Kahveyle Yazılmış Sessiz Bir Akşam',
+        message:'Gün yavaşça kapanırken, mutfağın köşesinde iki kadeh tiramisu… Kahveyle ıslanmış anlar, mascarpone’un yumuşaklığıyla sarılıyor. Altın kaşık sessizce bekliyor; belki bir sohbetin, belki bir tebessümün eşlikçisi. Bu tatlı, sadece bir lezzet değil bir akşamın kalp atışı.Işıklar loş, zaman yavaş, ve her lokma bir hatıra gibi.',
+        like: 0,
+        yorum:0,
+    },
+    {
+        image:'sansebastian.jpg',
+        title:'Karamelin Gölgesinde Çilekli Bir Sessizlik',
+        message:'Kimi tatlılar yüksek sesle konuşmaz… Bu cheesecake, yanık üstüyle derinliği, çilekle neşeyi, çikolatayla şefkati anlatıyor. Her katı bir duygunun izi, her lokması bir iç çekiş gibi. Belki de bu tarif, mutfağın en sessiz ama en güçlü cümlesidir. Bir dilimle başlayan, kalbe dokunan bir akşam.',
+        like: 0,
+        yorum: 0,
+    },
 
 ]
+
 
 
     
