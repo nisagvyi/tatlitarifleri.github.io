@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: url("food_website_background_2.jpg");
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -11,43 +11,87 @@ body {
     justify-content: center;
     align-items: center;
 }
-#parent{
+
+#parent {
     background: white;
     width: 50%;
     align-self: center;
 
 }
-#header{
+
+#header {
     display: flex;
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
 
 }
-.line{
+
+.line {
     background: black;
     width: 1px;
     margin-right: 5px;
     margin-left: 5px;
 
 }
-#logoContainer{
+
+#logoContainer {
     display: flex;
     justify-content: center;
 }
-#contentContainer{
+
+#contentContainer {
     display: flex;
     background: white;
     width: 50%;
-    
-}
-.description{
-    display: flex;
-    padding: 15px;
-    place-items: center;
-    margin-right: 20px;
-    margin-left: 20;
+    justify-content: center;
+    padding-top: 15px;
+    flex-direction: column;
     align-items: center;
-    justify-items: center;
-    
+
 }
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 25px;
+
+}
+
+.contents {
+    display: flex;
+    color: #ff61c8;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    justify-content: left;
+    margin-right: 370px;
+
+}
+
+.specialvehicles {
+    display: flex;
+    color: #f95d9b;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+    margin-right: 370px;
+}
+
+.dies {
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5c4b51;
+    list-style-type: disc;
+    line-height: 1.8;
+    max-width: 400px;
+    margin: auto;
+    background-color: #fffaf5;
+}
+.dies li {
+  margin-bottom: 8px;
+}
+
