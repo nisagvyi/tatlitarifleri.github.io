@@ -14,7 +14,7 @@ body {
 
 #parent {
     background: white;
-    width: 50%;
+    width: 52%;
     align-self: center;
 
 }
@@ -50,12 +50,13 @@ body {
     align-items: center;
     padding-left: 30px;
 
+
 }
 
 .description {
     display: flex;
     flex-direction: column;
-    
+
     text-align: left;
     margin-top: 25px;
     width: 100%;
@@ -80,7 +81,7 @@ body {
     text-align: left;
     justify-content: left;
     margin-top: 15px;
-    
+
 }
 
 .dies {
@@ -90,11 +91,231 @@ body {
     color: #5c4b51;
     list-style-type: disc;
     line-height: 1.8;
-    max-width: 400px;
-    margin left: 15px;
+    max-width: 230px;
+    margin-left: 20px;
     background-color: #fffaf5;
 }
+
 .dies li {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.cakes {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.measure {
+    display: flex;
+    color: #f95d9b;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+}
+
+.size {
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5c4b51;
+    list-style-type: disc;
+    line-height: 1.8;
+    max-width: 340px;
+    margin-left: 20px;
+    background-color: #fffaf5;
+}
+
+.size li {
+    margin-bottom: 8px;
+}
+
+.cream {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.pastryCream {
+    display: flex;
+    color: #f95d9b;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+}
+
+.core {
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5c4b51;
+    list-style-type: disc;
+    line-height: 1.8;
+    max-width: 380px;
+    margin-left: 20px;
+    background-color: #fffaf5;
+}
+
+.core.li {
+    margin-bottom: 8px;
+}
+
+.creams {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.custard {
+    display: flex;
+    color: #f95d9b;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+}
+
+.sourCream {
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5c4b51;
+    list-style-type: disc;
+    line-height: 1.8;
+    max-width: 380px;
+    margin-left: 20px;
+    background-color: #fffaf5;
+}
+
+.sourCream.li {
+    margin-bottom: 8px;
+}
+.instructions{
+   display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+    width: 100%; 
+    
+}
+.muffin{
+    display: flex;
+    color: #f95d9b;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.biscuit{
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5c4b51;
+    list-style-type: square;
+    line-height: 1.8;
+    max-width: 500px;
+    margin-left: 20px;
+    background-color: #fffaf5;
+
+}
+.biscuit.li{
+    margin-bottom: 8px;
+}
+
+.frenchcream{
+   display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+    width: 100%; 
+}
+.yellowcream{
+    display: flex;
+    color: #f95d9b;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.ganache{
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5c4b51;
+    list-style-type: square;
+    line-height: 1.8;
+    max-width: 500px;
+    margin-left: 20px;
+    background-color: #fffaf5;
+}
+.ganache li{
+    margin-bottom: 8px;
+}
+.marshmallow{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+    width: 100%; 
+}
+.icing{
+    display: flex;
+    color: #f95d9b;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.mixingcream{
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5c4b51;
+    list-style-type: square;
+    line-height: 1.8;
+    max-width: 500px;
+    margin-left: 20px;
+    background-color: #fffaf5;
+}
+.mixingcream.li{
+    margin-bottom: 8px;
+}
+.montage{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+    width: 100%; 
+}
+.mount{
+    display: flex;
+    color: #f95d9b;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.setting{
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5c4b51;
+    list-style-type: square;
+    line-height: 1.8;
+    max-width: 500px;
+    margin-left: 20px;
+    background-color: #fffaf5;
+}
+.setting.li{
+    margin-bottom: 8px;
 }
 
