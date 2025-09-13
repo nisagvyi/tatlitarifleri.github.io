@@ -116,8 +116,8 @@ var recipeData = [{
     ]
 
 },
-]
-[{
+
+{
         image: 'tartolet1.jpg',
         Titles:[
             {
