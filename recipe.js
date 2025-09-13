@@ -639,22 +639,22 @@ var recipeData = [{
     ]
 },
 {
-    image:'tiramusu.jpg',
-    Titles:[
+    image: 'tiramusu.jpg',
+    Titles: [
         {
-            title:'İçindekiler',
-            subTitles:[
+            title: 'İçindekiler',
+            subTitles: [
                 {
-                    subtitle:'Tiramusu İçin Malzemeler',
-                    content:[
+                    subtitle: 'Tiramusu İçin Malzemeler',
+                    content: [
                         "1 paket kedi dili",
                         "Kedi dilini ıslatmak için: 1,5 yemek kaşığı Türk kahvesi ve 1,5 kaşık toz şeker ",
                         "Üzeri için; kakao",
                     ]
                 },
                 {
-                    subtitle:'Muhallebisi İçin',
-                    content:[
+                    subtitle: 'Muhallebisi İçin',
+                    content: [
                         "1 litre süt",
                         "1 yumurta",
                         "3 yemek kaşığı un",
@@ -667,11 +667,11 @@ var recipeData = [{
             ]
         },
         {
-            title:'Talimatlar',
-            subTitles:[
+            title: 'Talimatlar',
+            subTitles: [
                 {
-                    subtitle:'',
-                    content:[
+                    subtitle: '',
+                    content: [
                         "Kedi dillerini ıslatmak için kahveli suyu hazırlayalım.",
                         "Kahve ve şekeri yarım bardak kadar ılık suda güzelce çözdürelim. Bir kenarda bekletelim.",
                         "Not: Türk kahvesi yerine granül kahve de kullanabilirsiniz",
@@ -691,14 +691,14 @@ var recipeData = [{
     ]
 },
 {
-    image:'sansebastian.jpg',
-    Titles:[
+    image: 'sansebastian.jpg',
+    Titles: [
         {
-            title:'İçindekiler',
-            subTitles:[
+            title: 'İçindekiler',
+            subTitles: [
                 {
-                    subtitle:'',
-                    content:[
+                    subtitle: '',
+                    content: [
                         "600 g az tuzlu krem peynir",
                         "300 ml krema",
                         "1,5 su bardağı pudra şekeri",
@@ -709,11 +709,11 @@ var recipeData = [{
             ]
         },
         {
-            title:'Talimatlar',
-            subTitles:[
+            title: 'Talimatlar',
+            subTitles: [
                 {
-                    subtitle:'',
-                    content:[
+                    subtitle: '',
+                    content: [
                         "Krem peyniri krema kıvamına gelene kadar çırpın",
                         "İçine kremayı ekleyip tamamen karışana kadar çırpın",
                         "Pudra şekerini ekleyip çırpın",
