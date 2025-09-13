@@ -1,24 +1,10 @@
-/**
- * ------------YAPILACAKLAR-----------
- * 
- * 1- var ile dizi oluştur ( index.js de örneği var )
- * 2- dizi ye her bir tarif için değerler ekle ( index.js de örneği var )
- * 2.1 - "url"den hangi tarife tıklandığını bul
- * 3- diziyi for döngüsü ile dizi boyutu kadar dön ( index.js de var )
- * 4- dizinin içindekileri html ile yazdır ( index.js de var )
- * 
- */
-
-// örnek data
-
-var recipeData = [{
-    image: 'Pink-Cupcakes.jpg',
+var data = [{
     Titles: [
         {
             title: 'içindekiler',
             subTitles: [
                 {
-                    subtitle: 'ÖZEL ARAÇLAR',
+                    subtitle: 'Özel Araçlar',
                     content: [
                         "3 adet 12'li kek kalıbı",
                         "Kek kalıpları",
@@ -33,7 +19,7 @@ var recipeData = [{
                     ]
                 },
                 {
-                    subtitle: 'KEKLER',
+                    subtitle: 'Kekler',
                     content: [
                         "3 su bardağı (345 gram) kek unu",
                         "1 3/4 su bardağı (350 gram) toz şeker",
@@ -60,7 +46,7 @@ var recipeData = [{
                 },
                 {
 
-                    subtitle: 'KREMA',
+                    subtitle: 'Krema',
                     content: [
                         "2 su bardağı (454 gram) oda sıcaklığında tuzsuz tereyağı",
                         "1/2 su bardağı (8 yemek kaşığı) katı yağ",
@@ -75,7 +61,7 @@ var recipeData = [{
             ]
         },
         {
-            title: 'TALİMATLAR',
+            title: 'talimatlar',
             subTitles: [
                 {
                     subtitle: '',
@@ -90,7 +76,7 @@ var recipeData = [{
                     ]
                 },
                 {
-                    subtitle: 'PASTACI KREMASI',
+                    subtitle: 'Pastacı Kreması',
                     content: [
                         "Orta boy bir tencereye süt kremasını, 6 yemek kaşığı şekeri, vanilya çekirdeğini ve tuzu ekleyin ve orta-yüksek ateşte ara sıra karıştırarak pişirin.",
                         "Bu arada bir kasede yumurta sarılarını, mısır nişastasını ve kalan 2 yemek kaşığı şekeri pürüzsüz bir kıvam alana kadar çırpın.",
@@ -114,68 +100,4 @@ var recipeData = [{
             ]
         }
     ]
-
-},
-]
-[{
-        image: 'tartolet1.jpg',
-        Titles:[
-            {
-                title:'içindekiler',
-                subTitles:[
-                    {
-                        subtitle:'MALZEMELER (6 küçük tart için)',
-                        content:[
-                            "Tart Tabanı:",
-                            "200 gr un",
-                            "100 gr tereyağ (soğuk, küp kesilmiş)",
-                            "50 gr pudra şekeri",
-                            "1 yumurta sarısı",
-                            "1-2 yemek kaşığı soğuk su",
-                            "Bir tutam tuz",
-                        ]
-                    },
-                ]
-            }
-        ]
-    }]
-
-
-
-
-function renderRecipe() {
-    var params = new URLSearchParams(window.location.search);
-    var index = params.get('index');
-    console.log(recipeData[index]);
-    var contentContainerdiv = document.getElementById('contentContainer')
-    var recipehtml = ''
-    for (var i = 0; i < recipeData[index].Titles.length; i++) {
-        recipehtml += `<p class="Title">${recipeData[index].Titles[i].title.toUpperCase()}</p>`
-        for (var j = 0; j < recipeData[index].Titles[i].subTitles.length; j++) {
-            var lihtml = ''
-            for (var k = 0; k < recipeData[index].Titles[i].subTitles[j].content.length; k++) {
-                lihtml += `<li>${recipeData[index].Titles[i].subTitles[j].content[k]}</li>`
-            }
-            recipehtml += `
-            <div class="description">
-                <span class="subTitle">${recipeData[index].Titles[i].subTitles[j].subtitle}</span>
-                <ol class="dies">
-                 ${lihtml}
-                </ol>
-            </div>
-            `
-        }
-    }
-    contentContainerdiv.innerHTML = recipehtml
-}
-
-function renderImage() {
-    var params = new URLSearchParams(window.location.search);
-    var index = params.get('index');
-    var imageContainer = document.getElementById('imageContainer')
-    var imagehtml = `<img src="${recipeData[index].image}" width="580" height="430">`
-    imageContainer.innerHTML = imagehtml
-}
-
-renderImage()
-renderRecipe()
+}]

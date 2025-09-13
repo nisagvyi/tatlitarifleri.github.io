@@ -12,11 +12,13 @@ body {
     align-items: center;
 }
 
+#pageContainer {
+    width: 60%;
+}
+
 #parent {
     background: white;
-    width: 52%;
     align-self: center;
-
 }
 
 #header {
@@ -40,15 +42,25 @@ body {
     justify-content: center;
 }
 
+#imageContainer {
+    display: flex;
+    width: 100%;
+    background: white;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
 #contentContainer {
     display: flex;
     background: white;
-    width: 50%;
     justify-content: center;
     padding-top: 15px;
     flex-direction: column;
     align-items: center;
     padding-left: 30px;
+    padding-right: 30px;
+
 
 
 }
@@ -56,14 +68,13 @@ body {
 .description {
     display: flex;
     flex-direction: column;
-
     text-align: left;
     margin-top: 25px;
     width: 100%;
 
 }
 
-.contents {
+.Title {
     display: flex;
     color: #ff61c8;
     font-weight: bold;
@@ -75,7 +86,7 @@ body {
 
 }
 
-.specialvehicles {
+.subTitle {
     display: flex;
     color: #f95d9b;
     text-align: left;
@@ -91,231 +102,11 @@ body {
     color: #5c4b51;
     list-style-type: disc;
     line-height: 1.8;
-    max-width: 230px;
     margin-left: 20px;
     background-color: #fffaf5;
+    width: fit-content;
 }
 
 .dies li {
     margin-bottom: 8px;
 }
-
-.cakes {
-    display: flex;
-    flex-direction: column;
-
-    text-align: left;
-    margin-top: 25px;
-    width: 100%;
-}
-
-.measure {
-    display: flex;
-    color: #f95d9b;
-    text-align: left;
-    justify-content: left;
-    margin-top: 15px;
-}
-
-.size {
-    padding: 20px;
-    border-radius: 12px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #5c4b51;
-    list-style-type: disc;
-    line-height: 1.8;
-    max-width: 340px;
-    margin-left: 20px;
-    background-color: #fffaf5;
-}
-
-.size li {
-    margin-bottom: 8px;
-}
-
-.cream {
-    display: flex;
-    flex-direction: column;
-
-    text-align: left;
-    margin-top: 25px;
-    width: 100%;
-}
-
-.pastryCream {
-    display: flex;
-    color: #f95d9b;
-    text-align: left;
-    justify-content: left;
-    margin-top: 15px;
-}
-
-.core {
-    padding: 20px;
-    border-radius: 12px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #5c4b51;
-    list-style-type: disc;
-    line-height: 1.8;
-    max-width: 380px;
-    margin-left: 20px;
-    background-color: #fffaf5;
-}
-
-.core.li {
-    margin-bottom: 8px;
-}
-
-.creams {
-    display: flex;
-    flex-direction: column;
-
-    text-align: left;
-    margin-top: 25px;
-    width: 100%;
-}
-
-.custard {
-    display: flex;
-    color: #f95d9b;
-    text-align: left;
-    justify-content: left;
-    margin-top: 15px;
-}
-
-.sourCream {
-    padding: 20px;
-    border-radius: 12px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #5c4b51;
-    list-style-type: disc;
-    line-height: 1.8;
-    max-width: 380px;
-    margin-left: 20px;
-    background-color: #fffaf5;
-}
-
-.sourCream.li {
-    margin-bottom: 8px;
-}
-.instructions{
-   display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-top: 25px;
-    width: 100%; 
-    
-}
-.muffin{
-    display: flex;
-    color: #f95d9b;
-    text-align: left;
-    justify-content: left;
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 20px;
-}
-.biscuit{
-    padding: 20px;
-    border-radius: 12px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #5c4b51;
-    list-style-type: square;
-    line-height: 1.8;
-    max-width: 500px;
-    margin-left: 20px;
-    background-color: #fffaf5;
-
-}
-.biscuit.li{
-    margin-bottom: 8px;
-}
-
-.frenchcream{
-   display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-top: 25px;
-    width: 100%; 
-}
-.yellowcream{
-    display: flex;
-    color: #f95d9b;
-    text-align: left;
-    justify-content: left;
-    margin-top: 15px;
-    font-size: 20px;
-}
-.ganache{
-    padding: 20px;
-    border-radius: 12px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #5c4b51;
-    list-style-type: square;
-    line-height: 1.8;
-    max-width: 500px;
-    margin-left: 20px;
-    background-color: #fffaf5;
-}
-.ganache li{
-    margin-bottom: 8px;
-}
-.marshmallow{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-top: 25px;
-    width: 100%; 
-}
-.icing{
-    display: flex;
-    color: #f95d9b;
-    text-align: left;
-    justify-content: left;
-    margin-top: 15px;
-    font-size: 20px;
-}
-.mixingcream{
-    padding: 20px;
-    border-radius: 12px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #5c4b51;
-    list-style-type: square;
-    line-height: 1.8;
-    max-width: 500px;
-    margin-left: 20px;
-    background-color: #fffaf5;
-}
-.mixingcream.li{
-    margin-bottom: 8px;
-}
-.montage{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-top: 25px;
-    width: 100%; 
-}
-.mount{
-    display: flex;
-    color: #f95d9b;
-    text-align: left;
-    justify-content: left;
-    margin-top: 15px;
-    font-size: 20px;
-}
-.setting{
-    padding: 20px;
-    border-radius: 12px;
-    font-family: 'Segoe UI', sans-serif;
-    color: #5c4b51;
-    list-style-type: square;
-    line-height: 1.8;
-    max-width: 500px;
-    margin-left: 20px;
-    background-color: #fffaf5;
-}
-.setting.li{
-    margin-bottom: 8px;
-}
-
