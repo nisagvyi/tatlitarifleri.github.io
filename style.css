@@ -23,6 +23,9 @@ body {
     padding-bottom: 15px;
 
 }
+.headeroption:hover{
+    cursor: pointer;
+}
 .line{
     background: black;
     width: 1px;

@@ -749,7 +749,7 @@ function renderRecipe() {
     var contentContainerdiv = document.getElementById('contentContainer')
     var recipehtml = ''
     for (var i = 0; i < recipeData[index].Titles.length; i++) {
-        recipehtml += `<p class="Title">${recipeData[index].Titles[i].title.toUpperCase()}</p>`
+        recipehtml += `<p class="Title">${recipeData[index].Titles[i].title.toLocaleUpperCase('tr-Tr')}</p>`
         for (var j = 0; j < recipeData[index].Titles[i].subTitles.length; j++) {
             var lihtml = ''
             for (var k = 0; k < recipeData[index].Titles[i].subTitles[j].content.length; k++) {
@@ -778,3 +778,7 @@ function renderImage() {
 
 renderImage()
 renderRecipe()
+
+function homePage(){
+    window.location.href = 'index.html'
+}

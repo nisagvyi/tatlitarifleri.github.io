@@ -112,6 +112,10 @@ function navigate(index) {
 }
 
 
+function homePage(){
+    window.location.href = 'index.html'
+}
+
 /**
  *  var postHtml
 
